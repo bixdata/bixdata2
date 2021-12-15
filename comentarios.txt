@@ -1,0 +1,18 @@
+gitteste
+
+git init
+git add "nome"
+git commit -m "comentario"
+git remote add origin "https://github.com/bixdata/bixdata2.git"
+git push -u origin bixdatabrand
+
+# para republicar alterações
+git add "nome"
+git commit -m "comentario"
+git push -u origin bixdatabrand
+
+
+git checkout -b "nomedabranchnova"
+depois usar
+git push -u origin "nomedabranchnova"
+
